@@ -6,3 +6,4 @@ services:
     image: debian-gui:focal
     ports:
       - "4242:80"
+    command: "python3 /Desktop/Portfolio.py"

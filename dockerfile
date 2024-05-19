@@ -7,7 +7,13 @@ git \
 make \
 build-essential \
 libreadline8 libreadline-dev \
-libglfw3 libglfw3-dev
+libglfw3 libglfw3-dev \
+python3 \
+python3-pip \
+python3-tk \
+gnome-terminal 
+
+COPY Portfolio.py /root/Desktop/Portfolio.py
 
 RUN git clone https://github.com/pablobn/minishell.git Desktop/minishell && \
 	git clone https://github.com/SergioDiazDev/So_long.git Desktop/so_long  && \
