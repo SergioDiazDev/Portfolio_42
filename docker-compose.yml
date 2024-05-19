@@ -1,7 +1,8 @@
-version: '3.8'
+
 
 services:
   debian-gui:
     build: .
+    image: debian-gui:focal
     ports:
       - "4242:80"
