@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  debian-gui:
+    build: .
+    ports:
+      - "4242:80"
