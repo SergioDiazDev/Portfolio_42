@@ -1,11 +1,14 @@
 # Portfolio_42
 Todos los proyectos de 42 en un unico contenedor.
 
-Los proyectos se encuentras en este contendor con sus dependencias instaladas y con un lanzador realizado en python para que sea más facil de ejecutar[EN PROCESO]
+Los proyectos se encuentras en este contendor con sus dependencias instaladas y con un lanzador realizado en python para que sea más facil de ejecutar(start.sh)[EN PROCESO]
 
 ## Como iniciar el contendor
+
 ### Requisitos
+
 * [Instalar Docker](https://www.docker.com/get-started/)
+
 ### Acceso al contenedor
 Usando tu navegador de confianza visita tu [localhost por el puerto 4242](http://localhost:4242), puedes modificar el puerto en el archivo docker-compose.yml
 
